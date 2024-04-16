@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 
 const navigation = [
@@ -27,17 +28,13 @@ export default () => {
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
-      <div className="my-16 text-center animate-fade-in">
+      <div className="my-16 max-w-[70%] text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-          I'm building{" "}
-          <Link
-            target="_blank"
-            href="https://app.moonup.uz"
-            className="underline duration-500 hover:text-zinc-300"
-          >
-            app.moonup.uz
-          </Link>{" "}
-          to solve API authentication and authorization for developers.
+          Creative Full Stack Developer with experience in Middle-level
+          projects. Passionate about creating innovative and user-friendly
+          interfaces. Strong eye for design and attention to detail. Team player
+          with a passion for continuous learning and keeping abreast of industry
+          trends and technologies.
         </h2>
       </div>
     </div>
